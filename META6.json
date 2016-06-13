@@ -3,7 +3,7 @@
     "name"         : "Config::From",
     "version"      : "1.001001",
     "description"  : "Load configuration from file to variables via traits",
-    "depends"      : [ "" ],
+    "depends"      : [ "JSON::Fast" ],
     "test-depends" : [ "Test" ],
     "provides"     : {
         "Config::From" : "lib/Config/From.pm6"

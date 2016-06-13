@@ -32,6 +32,33 @@ say "$user\'s password is $pass and they belong to @groups[]";
 
 # DESCRIPTION
 
+This module lets load a configuration file (in JSON format) and assign values
+from it to variables using traits.
+
+# EXPORTED TRAITS
+
+# `is from-config`
+
+```perl6
+my $user         is from-config;
+my @groups       is from-config;
+my %replacements is from-config;
+```
+
+Tells the variable to get its values from the config file. The name of the
+variable will be used as the name of the key in the top-level hash of the
+JSON config file.
+
+The `@` and `%` on variables will coerce the JSON value into
+array or hash, respectively.
+
+# LIMITATIONS
+
+Current implementation does not allow use of more than one configuration
+file per application and only lets you access values in a top-level hash.
+
+This may change in the future, if there's demand for such features.
+
 ----
 
 # REPOSITORY

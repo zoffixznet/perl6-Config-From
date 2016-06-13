@@ -1,3 +1,4 @@
+use JSON::Fast;
 my $Config;
 
 sub EXPORT (Str:D $config-file = 'config.json') {
