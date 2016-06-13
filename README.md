@@ -32,8 +32,8 @@ say "$user\'s password is $pass and they belong to @groups[]";
 
 # DESCRIPTION
 
-This module lets load a configuration file (in JSON format) and assign values
-from it to variables using traits.
+This module lets you load a configuration file (in JSON format) and assign
+values from it to variables using traits.
 
 # EXPORTED TRAITS
 
