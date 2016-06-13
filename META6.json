@@ -4,7 +4,7 @@
     "version"      : "1.001001",
     "description"  : "Load configuration from file to variables via traits",
     "depends"      : [ "JSON::Fast" ],
-    "test-depends" : [ "Test" ],
+    "test-depends" : [ "Test", "Test::META" ],
     "provides"     : {
         "Config::From" : "lib/Config/From.pm6"
     },
