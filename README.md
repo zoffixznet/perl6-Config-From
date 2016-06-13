@@ -49,7 +49,7 @@ Tells the variable to get its values from the config file. The name of the
 variable will be used as the name of the key in the top-level object of the
 JSON config file.
 
-The `@` and `%` on variables will coerce the JSON value into
+The `@` and `%` sigils on variables will coerce the JSON value into
 array or hash, respectively.
 
 # LIMITATIONS
